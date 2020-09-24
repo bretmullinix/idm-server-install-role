@@ -1,7 +1,7 @@
 Ansible Role: IDM Server (FreeIPA) 
 =========
 
-The ansible role is used to install IDM client on a Centos 8 server.  If you have another OS, you will need
+The ansible role is used to install the IDM server on a Centos 8 server.  If you have another OS, you will need
 to adapt the role for your OS.
 
 Requirements
