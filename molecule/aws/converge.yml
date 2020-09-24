@@ -1,0 +1,12 @@
+---
+- name: Converge
+  hosts: all
+  become: true
+  tasks:
+    - name: Include the variables needed for creation
+      include_vars:
+        file: "vars/main.yml"
+
+    - name: "Include idm-install"
+      include_role:
+        name: "idm-install"
