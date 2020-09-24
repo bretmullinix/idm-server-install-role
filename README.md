@@ -28,7 +28,7 @@ Requirements
     
         1. Create the **files** directory
         1. cd **files**
-        1. Create a file with same name as your AWS private key name.  The file must have no extension.
+        1. Create a file with the same name as your AWS private key name.  The file must have no extension.
         1. Add the AWS private key to the file created in the previous step. 
 
 Role Variables
