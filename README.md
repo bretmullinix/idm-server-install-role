@@ -24,7 +24,7 @@ Requirements
     1. Create the Ansible Vault secret file in the **role** directory.  The file has to be named
        **vault_secret**.  The secret decrypts the IDM server admin password when tests are run.
        
-    1. If you plan on running the **aws** scenario, you must also place do the following in the **roles** directory:
+    1. If you plan on running the **aws** scenario, you must perform thee following in the **roles** directory:
     
         1. Create the **files** directory
         1. cd **files**
